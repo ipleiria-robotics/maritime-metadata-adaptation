@@ -1,0 +1,26 @@
+# SeaDronesSee Dataset
+data/*
+results_baseline/*
+results_altitude/*
+results_angle/*
+results_both/*
+results_baseline_nomoisaic/*
+results_nomoisaic_domain/*
+
+# Generated Folders
+venv/
+runs/
+logs/
+wandb/
+__pycache__/
+testing/
+.vscode
+
+# File types
+*.pt
+*.onnx
+*.ptl
+!SeaDronesSea-V2.pt
+
+# Project
+thesis/*
