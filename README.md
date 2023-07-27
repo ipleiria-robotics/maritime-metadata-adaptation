@@ -1,3 +1,16 @@
+Student:<br>
+Diogo Samuel Fernandes<sup>1</sup><br>
+
+Advisors:<br>
+João Bispo<sup>1</sup><br>
+Mónica Figueiredo<sup>2,3</sup><br>
+Luís Conde Bento<sup>2,4</sup><br>
+
+<sup>1</sup> University of Porto, Porto, Portugal;<br>
+<sup>2</sup> Polytechnic of Leiria, Leiria, Portugal;<br>
+<sup>3</sup> Instituto de Telecomunicações, Portugal; <br>
+<sup>4</sup> Institute of Systems and Robotics, Coimbra, Portugal 
+
 # Exploring Metadata in Neural Networks for UAV Maritime Surveillance
 This work introduces an approach to develop a neural network that remains unaffected by image-capturing conditions, specifically variations in altitude and shooting angle in UAV maritime images. To achieve this, we integrate metadata information into the neural network architecture and employ an adversarial learning training methodology, making the network invariant to these image-capturing features. By achieving this, we aim to enhance the accuracy and reliability of object detection in maritime surveillance tasks.
 
