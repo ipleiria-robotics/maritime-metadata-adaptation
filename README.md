@@ -20,7 +20,7 @@ In our approach, the feature extractor aims to align the distributions of encodi
 
 This work builds upon the YOLOv7 model, which is a state-of-the-art real-time object detector, to enhance its capabilities and make it robust against image-capturing conditions. By integrating metadata into the network and employing an adversarial learning approach, we aim to maximize object detection performance (performed by Fo) while simultaneously making the domain classification (performed by Fd) incapable of accurately discerning the domain characteristics.
 
-[[Paper (Soon)]()]
+[[Paper (Soon)]()] [[Thesis](https://repositorio-aberto.up.pt/handle/10216/151939)]
 
 ![High-level Architecture](./docs/diagrams/dark.drawio.png#gh-dark-mode-only)
 ![High-level Architecture](./docs/diagrams/light.drawio.png#gh-light-mode-only)
