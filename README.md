@@ -14,6 +14,15 @@ Luís Conde Bento<sup>2,4</sup><br>
 # Exploring Metadata in Neural Networks for UAV Maritime Surveillance
 This work introduces an approach to develop a neural network that remains unaffected by image-capturing conditions, specifically variations in altitude and shooting angle in UAV maritime images. To achieve this, we integrate metadata information into the neural network architecture and employ an adversarial learning training methodology, making the network invariant to these image-capturing features. By achieving this, we aim to enhance the accuracy and reliability of object detection in maritime surveillance tasks.
 
+<div style="text-align: center;">
+    <div style="display: flex; justify-content: space-between;">
+        <img src="./docs/images/image1.png" alt="Image 1" width="150" height="150">
+        <img src="./docs/images/image2.png" alt="Image 2" width="150" height="150">
+        <img src="./docs/images/image3.png" alt="Image 3" width="150" height="150">
+    </div>
+    <p>UAV optical images from the SeaDronesSee dataset.</p>
+</div>
+
 It is important to acknowledge that this deliberate emphasis on making the model invariant to domain characteristics may have potential drawbacks. The model may inadvertently overlook these variables and struggle to accurately detect objects, which is the main task. To mitigate this potential impact, we selectively use the domain classification module (Fd) after a predefined number of training epochs without it. This approach allows us to strike a balance between emphasizing object-related information and minimizing the impact of inherent image-capturing characteristics.
 
 In our approach, the feature extractor aims to align the distributions of encodings across different domains, thereby minimizing the dissimilarity between similar images captured in different conditions. It is worth noting that our architecture is designed to handle multiple domains, making it flexible to accommodate an arbitrary number of Fd components.
